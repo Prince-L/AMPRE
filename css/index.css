@@ -1,0 +1,129 @@
+
+
+@media screen and (min-width: 992px) {
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.clear{
+		clear: both;
+	}
+	.center{
+		width: 1238px;
+		margin:0 auto;
+	}
+
+	.topNav{
+		width:100%;
+
+	}
+	.topNavarea{
+		height:75px;
+	}
+	.logoImg img{
+		padding-top: 18px;
+		width: 122px;
+		height:46px;
+	}
+	.navText{
+		margin-left: 220px;
+		font-size: 14px;
+		line-height: 75px;
+	}
+	.navText li{
+		position: relative;
+		margin: 0px 4px;
+	}
+	.navText li span{
+		color:#999;
+		display:block;
+		float:left;
+
+		/*border-bottom: 1px solid blue;*/
+		/*margin: 0px 4px;*/
+		/*background-color: pink;*/
+	}
+	.navText li{
+		margin-right: 44px;
+		float:left;
+	}
+	.navText li  i{
+		/*z-index: -2;*/
+		bottom: 1px;
+		left:50%;
+		height: 1px;
+		position: absolute;
+		background: red;
+		width:1px;
+	}
+	/*.navText li:hover .navText li  i{*/
+		/*transform:scaleX(2);*/
+		/*background: red;*/
+		/*border-bottom: 1px solid blue;*/
+	/*}*/
+	/*.navText li i:nth-of-type(1){*/
+		/*left:0;*/
+		/*!*width:50%;*!*/
+		/*!*background: pink;*!*/
+	/*}*/
+	/*.navText li:hover .navText li i:nth-of-type(1){*/
+		/*width:50%;*/
+		/*background: pink;*/
+	/*}*/
+
+	/*.navText li i:nth-of-type(2){*/
+		/*width:50%;*/
+		/*background: red;*/
+	/*}*/
+	.active{
+		border-bottom:1px solid #999;
+	}
+	.cen{
+		height: 500px;
+		/*background:pink;*/
+		width:100%;
+	}
+	.footer{
+		/*float: left;*/
+		background-image: url("../images/footbg.jpg");
+	}
+	.footerArea{
+		width: 1238px;
+		height: 157px;
+	}
+	.footerText p:nth-of-type(1){
+		padding-top: 38px;
+		font-size: 16px;
+		color:rgb(141, 144, 149)
+	}
+	.footerArea .footerText  {
+		margin-left: 124px;
+	}
+	.footerText p:nth-of-type(2){
+		padding-top: 11px;
+		font-size: 16px;
+		color:rgb(141, 144, 149);
+		font-weight: bold;
+	}
+	.footerText p:nth-of-type(3){
+		padding-top: 11px;
+		font-size: 16px;
+		color:rgb(141, 144, 149);
+		font-weight: bold;
+	}
+	.copyright{
+		margin-right: 92px;
+	}
+	.copyright p{
+		font-size: 14px;
+		color:rgb(141, 144, 149);
+
+	}
+	.gg{
+		height: 500px;
+	}
+
+
+}

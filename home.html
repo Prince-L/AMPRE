@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+
+
+</head>
+<body>
+<div class="box">
+	<div class='topNav'>
+		<div class="topNavarea center">
+			<div class="logoImg left">
+				<img src="images/logo.png">
+			</div>
+			<ul class="navText left">
+				<li class="active"><router-link to="/home"><span>首页</span><i></i></router-link></li>
+				<li><router-link to="/serve"><span>服务项目</span><i></i></router-link></li>
+				<li><router-link to="/team"><span>设计团队</span><i></i></router-link></li>
+				<li><router-link to="/news"><span>资讯新闻</span><i></i></router-link></li>
+				<li><router-link to="/about"><span>关于我们</span><i></i></router-link></li>
+				<li><router-link to="/us"><span>联系我们</span><i></i></router-link></li>
+			</ul>
+			<div class="iconfont left">
+
+			</div>
+		</div>
+	</div>
+	<div class="cen clear">
+		<router-view></router-view>
+	</div>
+	<div class="footer">
+		<div class="center footerArea">
+			<div class="footerText left">
+				<p>服务咨询热线</p>
+				<p>400-2000-5000</p>
+				<p>E-mial：dujia@gmial.com</p>
+			</div>
+			<div class="copyright right">
+				<p>版全所有 © 有家有限公司. All Rights Reserved</p>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<div>
+	<template id='h'>
+	<p>grh</p>
+	</template>
+	<template id='s'>
+	<p>fgrherh</p>
+	</template>
+</div>
+<script type="text/javascript" src='js/jquery-1.11.3.min.js'></script>
+<script src="js/vue.min.js"></script>
+<script src="js/vue-router.min.js"></script>
+<script src="dist/js/jquery-1.11.3.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src='js/index.js'></script>
+
+    <script type="text/javascript">
+//    const Home = {
+//        template: "#h"
+//    }
+//
+//    const Serve = {
+//        template: "#s"
+//    }
+//    const Team = {
+//        template: "#t"
+//    }
+//    const News = {
+//        template: "#n"
+//    }
+//    const About = {
+//        template: "#a"
+//    }
+//    const Us = {
+//        template: "#u"
+//    }
+
+//    //2.定义路由 (每个路由应该映射一个组件)
+//    const routes = [{
+//			path: "/home",
+//			component: Home
+//    	},
+//        {
+//            path: "/serve",
+//            component: Serve
+//        },
+//        {
+//            path: "/team",
+//            component: Team
+//        },
+//        {
+//            path: "/news",
+//            component: News
+//        },
+//        {
+//            path: "/about",
+//            component: About
+//        },
+//        {
+//            path: "/us",
+//            component: Us
+//        }
+//    ]
+//
+//    //3.创建router实例 ，然后传‘routes’ 配置
+//    const router = new VueRouter({
+//        linkActiveClass: 'active',
+//		/*mode:"history",*/
+//        routes // 相当于   routes:routes
+//    })
+//
+//    //4.创建和挂载根实例，从而让整个应用都有路由功能
+//    const vm = new Vue({
+//        router   //相当于 router:router
+//    }).$mount(".topNav")
+
+</script>
+
+
+
+</body>
+</html>
